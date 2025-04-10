@@ -1,9 +1,12 @@
 import React from "react";
+// Import the logo directly
+import logoImage from "../../src/public/assets/logo.png"; // Adjust path as needed
+
 
 export function MedullaLogo({ className }: { className?: string }) {
   return (
     <img 
-      src="public/assets/logo.png" 
+      src={logoImage} 
       alt="Medulla Logo" 
       className={className}
       style={{ height: "100px" }}

@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { Smartphone, CheckCircle } from "lucide-react";
+import smartphone_img from "../../src/public/assets/image_1744288187663.jpg"
 import StoreButtons from "./StoreButtons";
 
 export default function AppDownloadSection() {
@@ -65,7 +66,7 @@ export default function AppDownloadSection() {
               <div className="absolute inset-0 bg-gradient-to-br from-primary to-primary/60 rounded-[40px] shadow-lg transform -rotate-6"></div>
               <div className="absolute inset-0 bg-white rounded-[40px] shadow-lg overflow-hidden transform rotate-3">
                 <img 
-                  src="/assets/image_1744288187663.jpg"
+                  src={smartphone_img}
                   alt="Smartphone Interface" 
                   className="w-full h-full object-cover object-center"
                   loading="lazy"
