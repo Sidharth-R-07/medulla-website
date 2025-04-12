@@ -91,7 +91,7 @@ export default function HeroSection() {
               className="text-lg px-8 py-6 rounded-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all"
               onClick={() => scrollToSection("waitlist")}
             >
-              Join Waitlist <ArrowRight className="ml-2 h-5 w-5" />
+              Download the App now <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
             <Button
               variant="outline"

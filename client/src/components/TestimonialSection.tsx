@@ -51,10 +51,10 @@ export default function TestimonialSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
-            What physicians are saying
+          Real Voices from the Frontlines of Care
           </h2>
           <p className="mt-4 text-xl text-gray-500">
-            Hear from healthcare professionals using Medulla in their practice
+          Trusted by Those Who Trust Science
           </p>
         </div>
 

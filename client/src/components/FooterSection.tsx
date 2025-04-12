@@ -110,22 +110,22 @@ export default function FooterSection() {
             </h3>
             <ul className="mt-4 space-y-2">
               <li>
-                <a href="#about" className="text-gray-600 hover:text-primary transition-colors">
+                <Link href="/about" className="text-gray-600 hover:text-primary transition-colors">
                   About Us
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="text-gray-600 hover:text-primary transition-colors">
+                <Link href="/privacy" className="text-gray-600 hover:text-primary transition-colors">
                   Privacy Policy
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="text-gray-600 hover:text-primary transition-colors">
+                <Link href="/terms" className="text-gray-600 hover:text-primary transition-colors">
                   Terms of Service
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="text-gray-600 hover:text-primary transition-colors">
+                <a href="mailto:mail@medulla.app" className="text-gray-600 hover:text-primary transition-colors">
                   Contact
                 </a>
               </li>
@@ -134,7 +134,7 @@ export default function FooterSection() {
         </div>
         <div className="mt-12 border-t border-gray-200 pt-8">
           <p className="text-gray-500 text-sm text-center">
-            &copy; {currentYear} Medulla Health Technologies. All rights reserved.
+            &copy; {currentYear} Veguar Technologies Private Limited. All rights reserved.
           </p>
         </div>
       </div>

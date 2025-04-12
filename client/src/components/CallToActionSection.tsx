@@ -33,7 +33,7 @@ export default function CallToActionSection() {
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: 0.3 }}
             >
-              Join our waitlist today and be among the first to experience Medulla when we launch.
+           Join our waitlist today and be among the first to experience Medulla when we la   unch.
             </motion.p>
           </div>
           <div className="flex justify-center md:justify-end">

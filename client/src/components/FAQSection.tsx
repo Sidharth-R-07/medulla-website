@@ -10,39 +10,39 @@ import FeatureComparisonTable from "./FeatureComparisonTable";
 export default function FAQSection() {
   const faqs = [
     {
-      question: "What is Medulla?",
+      question: "What is Medulla and who is it for?",
       answer:
-        "Medulla is an AI-powered healthcare platform designed to support medical professionals in making better clinical decisions. It offers tools for diagnosis support, pediatric drug dosing, team communication, and more."
+        "Medulla is your AI-powered clinical companion, built for doctors, interns, residents, and nurses. Whether you’re managing rounds, preparing for exams, or making decisions in the ER, Medulla simplifies your workflow with the right tools—right when you need them."
     },
     {
-      question: "Is Medulla available for all medical specialties?",
+      question: "How is Medulla different from a regular medical reference app?",
       answer:
-        "Yes, Medulla is designed to support healthcare professionals across various specialties including pediatrics, internal medicine, emergency medicine, and more. Our tools are tailored to address the specific needs of different medical practices."
+        "Medulla isn’t just another database—it thinks with you. From symptom-based diagnosis to instant investigations and live data interpretation, it works like an AI mentor guiding your clinical reasoning on the go. No more flipping between apps or second-guessing steps."
     },
     {
-      question: "How secure is patient data on Medulla?",
+      question: "Does Medulla follow Indian clinical guidelines?",
       answer:
-        "Medulla is built with security and privacy as top priorities. We are HIPAA-compliant and use industry-leading encryption standards to ensure all patient data is securely stored and transmitted. We never share patient data with third parties."
+        "Yes. Everything in Medulla is tailored for Indian practice—from ICMR and AIIMS-backed protocols to India-specific pediatric doses and drug brands. It’s built for the realities of Indian wards and emergencies."
     },
     {
-      question: "Can Medulla integrate with existing hospital systems?",
+      question: "Can I use Medulla during rounds, duty hours, or in high-pressure situations?",
       answer:
-        "Yes, Medulla is designed to integrate seamlessly with major Electronic Health Record (EHR) systems and hospital management software. Our team provides dedicated support for integration with your existing infrastructure."
+        "Definitely. Medulla is designed for real-time hospital use—during rounds, night duties, OPD, or even in emergencies. It gives instant access to what matters without slowing you down."
     },
     {
-      question: "How do I join the waitlist?",
+      question: "How does the Pediatric Dose Calculator work?",
       answer:
-        "You can join our waitlist by filling out the form in the 'Join Waitlist' section of our website. Once you submit your information, you'll be notified as soon as Medulla becomes available for your region and specialty."
+        "You simply enter the age and weight, and Medulla gives you accurate dose ranges along with India-specific formulations and brands. It’s quick, safe, and takes the pressure off when time is tight."
     },
     {
-      question: "Is there a cost to use Medulla?",
+      question: "Is patient data stored or shared?",
       answer:
-        "Medulla will offer both free and premium tiers. The free tier provides access to essential features, while the premium subscription unlocks advanced capabilities, priority support, and more. Pricing details will be provided closer to launch."
+        "No. Medulla respects patient confidentiality. It doesn’t store or share any personal patient data. Everything stays on your device and under your control."
     },
     {
       question: "How does Medulla compare to other healthcare platforms?",
       answer:
-        "Medulla offers several unique features including AI-powered clinical decision support, pediatric drug dosage calculators specifically designed for India, and integrated team communication with patient tagging. See our comparison table below for more details."
+        "Yes. Medulla is completely free for doctors, residents, and interns. You get full access to all features, with no hidden costs—because good clinical support should be available to everyone in medicine."
     },
   ];
 

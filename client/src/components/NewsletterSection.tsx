@@ -18,7 +18,7 @@ export default function NewsletterSection() {
                 <Mail className="h-6 w-6 text-primary" />
               </span>
               <h2 className="text-3xl font-extrabold text-gray-900">
-                Stay up to date
+              Stay up to date
               </h2>
               <p className="mt-4 text-lg text-gray-600">
                 Get notified about new features, case studies, and medical research integrations

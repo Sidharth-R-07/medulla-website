@@ -24,12 +24,7 @@ export default function FeatureComparisonTable() {
       competitors: false,
     },
     {
-      name: "HIPAA compliance",
-      medulla: true,
-      competitors: true,
-    },
-    {
-      name: "Designed for India-specific needs",
+      name: "Designed as per Indian standards and protocols",
       medulla: true,
       competitors: false,
     },
