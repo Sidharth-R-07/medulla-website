@@ -13,21 +13,27 @@ interface Testimonial {
 export default function TestimonialSection() {
   const testimonials: Testimonial[] = [
     {
-      quote: "Medulla's diagnostic tools have completely changed how I approach complex cases. The differential diagnosis generator saves me hours of research time.",
-      name: "Dr. Sarah Chen",
-      title: "Pediatrician, City Children's Hospital",
-      avatar: "https://randomuser.me/api/portraits/women/79.jpg"
+      quote: "During my night shift last week, I had a confused, hypotensive patient with mixed symptoms. Normally, I’d flip through my handbook or search scattered resources. But with Medulla, I just input the symptoms and within seconds, it generated a short differential list, recommended urgent investigations, and even highlighted red flags. It felt like having a specialist looking over my shoulder—right when I needed it most.",
+      name: "Dr. Aakash Pillai",
+      title: "Senior Resident – Emergency Medicine, Government Medical College, Thrissur",
+      avatar: "https://randomuser.me/api/portraits/men/19.jpg"
     },
     {
-      quote: "The pediatric drug dose calculator is a lifesaver during busy shifts. It's made my prescribing process faster and significantly reduced the risk of errors.",
-      name: "Dr. Jamal Thompson",
-      title: "Emergency Medicine, Medical Center",
+      quote: "One of the constant challenges during calls is calculating drug doses for children, especially when the weight isn’t textbook. Medulla’s pediatric dose calculator has been a game changer. I enter the age and weight, and it gives me India-specific doses with actual brand names and syrup formulations. No more flipping through books or double-checking Google. It’s quick, reliable, and built exactly for what we face in our hospitals.",
+      name: "Dr. Iqra Siddiqui",
+      title: "Junior Resident – Pediatrics, KGMU Lucknow",
       avatar: "https://randomuser.me/api/portraits/men/32.jpg"
     },
     {
-      quote: "Team communication has been transformed since we started using Medulla. Having all patient information and consultations in one place reduces confusion and improves care.",
-      name: "Dr. Priya Patel",
-      title: "Internal Medicine, University Hospital",
+      quote: "We’re expected to think like doctors but still figuring things out as students. During rounds, when I get asked for possible differentials or ABG interpretation, I open Medulla quietly—it gives me a concise, structured view that actually teaches while solving. It’s not just a crutch; it’s a learning tool that helps me think clinically and be more confident in front of seniors.",
+      name: "Dr. Rohit Sharma",
+      title: "Final-Year MBBS Student – BJ Medical College, Pune",
+      avatar: "https://randomuser.me/api/portraits/men/24.jpg"
+    },
+    {
+      quote: "I juggle multiple patients, a small team, and very little time to document or assign follow-ups. Medulla’s chat interface lets me tag my assistant, assign tasks, and track everything from one screen. Even results from tools like ECG interpretations can be saved to the patient timeline. It’s like turning a group WhatsApp into an actual medical workflow—with zero chaos.",
+      name: "Dr. Meenakshi Suresh",
+      title: "Consultant Physician – Private Multispeciality Clinic, Coimbatore",
       avatar: "https://randomuser.me/api/portraits/women/44.jpg"
     },
   ];
