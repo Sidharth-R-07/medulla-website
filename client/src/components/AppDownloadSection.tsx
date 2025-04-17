@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { Smartphone, CheckCircle } from "lucide-react";
-import smartphone_img from "../../src/public/assets/image_1744288187663.jpg"
+import smartphone_img from "../../src/public/assets/starting.png"
 import StoreButtons from "./StoreButtons";
 
 export default function AppDownloadSection() {
