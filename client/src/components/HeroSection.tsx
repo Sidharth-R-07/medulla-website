@@ -91,7 +91,7 @@ export default function HeroSection() {
               className="text-lg px-8 py-6 rounded-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all"
               onClick={() => scrollToSection("waitlist")}
             >
-              Download the App now <ArrowRight className="ml-2 h-5 w-5" />
+              Join Waitlist <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
             <Button
               variant="outline"
@@ -104,65 +104,7 @@ export default function HeroSection() {
           </motion.div>
         </div>
 
-        <motion.div
-          className="mt-16 relative mx-auto max-w-3xl"
-          initial={{ opacity: 0, y: 40 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.7, delay: 0.4 }}
-        >
-          {/* Animated dashboard mockup */}
-          <div className="relative rounded-2xl shadow-2xl overflow-hidden">
-            <div className="bg-gray-800 h-6 flex items-center px-4">
-              <div className="flex space-x-2">
-                <div className="w-2 h-2 bg-red-500 rounded-full"></div>
-                <div className="w-2 h-2 bg-yellow-500 rounded-full"></div>
-                <div className="w-2 h-2 bg-green-500 rounded-full"></div>
-              </div>
-            </div>
-            <div className="bg-white p-4">
-              <div className="grid grid-cols-2 gap-4">
-                <div className="bg-gray-50 p-4 rounded-lg">
-                  <div className="h-4 w-3/4 bg-gray-200 rounded mb-3"></div>
-                  <div className="h-32 bg-primary/10 rounded-lg flex items-center justify-center">
-                    <div className="h-16 w-16 text-primary">
-                      <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M4.75 8H7.25" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                        <path d="M12.75 8H19.25" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                        <path d="M4.75 16H12.25" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                        <path d="M17.75 16H19.25" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                        <path d="M10 12C10 13.1046 9.10457 14 8 14C6.89543 14 6 13.1046 6 12C6 10.8954 6.89543 10 8 10C9.10457 10 10 10.8954 10 12Z" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                        <path d="M18 16C18 17.1046 17.1046 18 16 18C14.8954 18 14 17.1046 14 16C14 14.8954 14.8954 14 16 14C17.1046 14 18 14.8954 18 16Z" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                      </svg>
-                    </div>
-                  </div>
-                </div>
-                <div className="bg-gray-50 p-4 rounded-lg">
-                  <div className="h-4 w-1/2 bg-gray-200 rounded mb-3"></div>
-                  <div className="h-32 bg-primary/10 rounded-lg flex items-center justify-center">
-                    <div className="h-16 w-16 text-primary">
-                      <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M12 16.01L12.01 15.9989" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                        <path d="M12 7V12" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                        <path d="M2.5 12C2.5 7.52166 2.5 5.28249 3.89124 3.89124C5.28249 2.5 7.52166 2.5 12 2.5C16.4783 2.5 18.7175 2.5 20.1088 3.89124C21.5 5.28249 21.5 7.52166 21.5 12C21.5 16.4783 21.5 18.7175 20.1088 20.1088C18.7175 21.5 16.4783 21.5 12 21.5C7.52166 21.5 5.28249 21.5 3.89124 20.1088C2.5 18.7175 2.5 16.4783 2.5 12Z" stroke="currentColor" strokeWidth="1.5" strokeLinejoin="round" />
-                      </svg>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-span-2 bg-gray-50 p-4 rounded-lg">
-                  <div className="h-4 w-1/4 bg-gray-200 rounded mb-3"></div>
-                  <div className="flex gap-2">
-                    <div className="h-6 w-1/3 bg-primary/20 rounded"></div>
-                    <div className="h-6 w-1/4 bg-primary/30 rounded"></div>
-                    <div className="h-6 w-1/5 bg-primary/40 rounded"></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          
-          {/* Glow effect */}
-          <div className="absolute -inset-0.5 bg-gradient-to-r from-primary/30 to-blue-500/30 rounded-2xl blur opacity-30 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-pulse"></div>
-        </motion.div>
+        
       </div>
     </section>
   );

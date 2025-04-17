@@ -36,7 +36,7 @@ export default function Header() {
             className="hover:shadow-lg transition-all" 
             onClick={() => scrollToSection("waitlist")}
           >
-            Download the App now
+            Join Waitlist
           </Button>
         </div>
       </div>
