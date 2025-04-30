@@ -53,7 +53,7 @@ export default function FloatingNotification() {
               <div className="ml-3 w-0 flex-1">
                 <p className="text-sm font-medium text-gray-900">Limited spots available!</p>
                 <p className="mt-1 text-sm text-gray-500">
-                  Join our waitlist today to get early access to Medulla when we launch.
+                  {/* Join our waitlist today to get early access to Medulla when we launch. */}
                 </p>
                 <div className="mt-4 flex">
                   <Button 
@@ -61,7 +61,7 @@ export default function FloatingNotification() {
                     className="w-full mr-2"
                     onClick={handleAction}
                   >
-                    Join now
+                    Download Now
                   </Button>
                   <Button
                     size="sm"

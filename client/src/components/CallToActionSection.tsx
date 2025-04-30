@@ -33,7 +33,7 @@ export default function CallToActionSection() {
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: 0.3 }}
             >
-           Join our waitlist today and be among the first to experience Medulla when we la   unch.
+              {/* Join our waitlist today and be among the first to experience Medulla when we launch. */}
             </motion.p>
           </div>
           <div className="flex justify-center md:justify-end">
@@ -45,10 +45,10 @@ export default function CallToActionSection() {
             >
               <Button 
                 size="lg" 
-                onClick={() => scrollToSection("waitlist")}
+                onClick={() => scrollToSection("app")}
                 className="bg-white text-primary hover:bg-gray-100 hover:text-primary/90 shadow-lg hover:shadow-xl transition-all px-8"
               >
-                <span>Join Waitlist</span>
+                <span>Download the App now</span>
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
             </motion.div>

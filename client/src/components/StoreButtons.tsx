@@ -1,3 +1,4 @@
+
 import { motion } from "framer-motion";
 import { FaApple, FaGooglePlay } from "react-icons/fa";
 
@@ -5,7 +6,9 @@ export default function StoreButtons() {
   return (
     <div className="flex flex-col sm:flex-row gap-4 mt-8">
       <motion.a
-        href="#"
+        href="https://apps.apple.com/in/app/medulla-medicos-learning-app/id1641116064"
+        target="_blank"
+        rel="noopener noreferrer"
         className="inline-flex items-center justify-center px-5 py-2 border border-transparent text-base font-medium rounded-md text-white bg-gray-900 hover:bg-gray-800 shadow-md hover:shadow-lg transition-all"
         whileHover={{ scale: 1.05 }}
         whileTap={{ scale: 0.95 }}
@@ -17,7 +20,9 @@ export default function StoreButtons() {
         </div>
       </motion.a>
       <motion.a
-        href="#"
+        href="https://apps.apple.com/in/app/medulla-medicos-learning-app/id1641116064"
+        target="_blank"
+        rel="noopener noreferrer"
         className="inline-flex items-center justify-center px-5 py-2 border border-transparent text-base font-medium rounded-md text-white bg-gray-900 hover:bg-gray-800 shadow-md hover:shadow-lg transition-all"
         whileHover={{ scale: 1.05 }}
         whileTap={{ scale: 0.95 }}
