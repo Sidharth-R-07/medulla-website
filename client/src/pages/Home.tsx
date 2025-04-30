@@ -4,7 +4,7 @@ import ValuePropositionSection from "@/components/ValuePropositionSection";
 import FeaturesSection from "@/components/FeaturesSection";
 import TestimonialSection from "@/components/TestimonialSection";
 import FAQSection from "@/components/FAQSection";
-import CallToActionSection from "@/components/CallToActionSection";
+// import CallToActionSection from "@/components/CallToActionSection";
 import AppDownloadSection from "@/components/AppDownloadSection";
 
 import FooterSection from "@/components/FooterSection";
@@ -19,7 +19,7 @@ export default function Home() {
         <FeaturesSection />
         <TestimonialSection />
         <FAQSection />
-        <CallToActionSection />
+        {/* <CallToActionSection /> */}
         <AppDownloadSection />
       </main>
       <FooterSection />

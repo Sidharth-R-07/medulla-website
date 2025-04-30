@@ -34,9 +34,9 @@ export default function Header() {
           <Button 
             variant="default" 
             className="hover:shadow-lg transition-all" 
-            onClick={() => scrollToSection("waitlist")}
+            onClick={() => scrollToSection("app")}
           >
-            Join Waitlist
+            Try Medulla for free
           </Button>
         </div>
       </div>

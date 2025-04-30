@@ -159,7 +159,7 @@ export default function WaitlistForm() {
               Processing...
             </>
           ) : (
-            "Join Waitlist"
+            "Downnload the App Now"
           )}
         </Button>
       </form>
